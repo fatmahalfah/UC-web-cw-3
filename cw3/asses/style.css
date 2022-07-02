@@ -1,0 +1,38 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column
+
+}
+.text{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: 10px ;
+    border-color :teal
+}
+
+.box:hover{
+border: solid;
+border-color: turquoise;
+}
